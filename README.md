@@ -8,6 +8,7 @@ An in-app debugging and exploration tool for iOS.
 
 | version | Xcode  | iOS  | watchOS | tvOS | macOS | bitcode |
 | ------- | ------ | ---- | ------- | ---- | ----- | ------- |
+| 3.1.0   | 11.2.1 | >9.0 | NA      | NA   | NA    | ✓       |
 | 3.0.0   | 11.2.1 | >8.0 | NA      | NA   | NA    | ✓       |
 
 ## Usage
@@ -27,5 +28,5 @@ pod 'PBFlex', :configurations => ['Debug']
 Carthage
 
 ```text
-binary "https://raw.githubusercontent.com/PBPods/PBFlex/master/FLEX.json" ~> 3.0
+binary "https://raw.githubusercontent.com/PBPods/PBFlex/master/FLEX.json"
 ```

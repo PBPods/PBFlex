@@ -1,0 +1,34 @@
+{
+  "name": "PBFlex",
+  "version": "3.1.0",
+  "summary": "A set of in-app debugging and exploration tools for iOS",
+  "description": "- Inspect and modify views in the hierarchy.\n- View Detailed network request history.\n- See the properties and ivars on any object.\n- Dynamically modify many properties and ivars.\n- Dynamically call instance and class methods.\n- Access any live object via a scan of the heap.\n- See system log messages (i.e. from `NSLog()`).\n- View the file system within your app's sandbox.\n- Explore all classes in your app and linked systems frameworks (public and private).\n- Quickly access useful objects such as `[UIApplication sharedApplication]`, the app delegate, the root view controller on the key window, and more.\n- Dynamically view and modify `NSUserDefaults` values.",
+  "homepage": "https://github.com/PBPods/PBFlex",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "Tanner Bennett": "tannerbennett@me.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/PBPods/PBFlex/releases/download/3.1.0/carthage.zip",
+    "sha1": "def8072adc8817580a1c72d8ea249b06a45649f7"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics",
+    "ImageIO",
+    "QuartzCore",
+    "WebKit",
+    "Security"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3"
+  ],
+  "vendored_frameworks": "**/*.framework"
+}
